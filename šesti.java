@@ -3,15 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Start;
+package predavanje4;
 
+/**
+ *
+ * @author Korisnik
+ */
+public class Zadatak {
 
-public class Godine {
     public static void main(String[] args) {
-        int godina;
+        Integer[] niz = {8, 2, 6, 7, 0, 1, 4, 9, 5, 3};
 
-        for ( godina = 2020; godina <= 2096; godina = godina +4) {
-            System.out.println(godina);}
+        for (int i = niz.length; i > 0; i--) {
+            System.out.print(niz[i - 1] + " ");
+        }
 
     }
 }
