@@ -18,12 +18,13 @@ public class ffos {
      */
     public static void main(String[] args) {
 //PRVI ZADATAK
-        String broj = JOptionPane.showInputDialog("Unesi prvi broj");
+        String broj = JOptionPane.showInputDialog("Unesi broj");
 
         int num1 = Integer.parseInt(broj);
-
-        int sum = num1 + 1;
-        System.out.println(sum);
+        int sum = 0;
+        for (int i = 1; i <= num1; i++) {
+           sum += i;
+            System.out.println(sum);
+        }
     }
-
 }
