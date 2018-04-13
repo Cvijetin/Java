@@ -5,10 +5,7 @@
  */
 package Start;
 
-/**
- *
- * @author Cvijetin
- */
+
 public class Godine {
     public static void main(String[] args) {
         int godina;
